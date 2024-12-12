@@ -87,8 +87,8 @@ publishing {
     publications {
         register<MavenPublication>("release") {
             groupId = "com.github.ti-net-project"
-            artifactId = "VSClient-Android"
-            version = "0.2.0"
+            artifactId = "VCSClient-Android"
+            version = "0.2.1"
 
             afterEvaluate {
                 from(components["release"])
