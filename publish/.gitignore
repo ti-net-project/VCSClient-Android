@@ -1,1 +1,7 @@
 /build
+/libs
+/src/main/jniLibs/
+/src/main/res/
+/src/main/AndroidManifest.xml
+consumer-rules.pro
+proguard-rules.pro

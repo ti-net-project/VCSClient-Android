@@ -27,5 +27,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "VCSClient-Android"
-include(":sdk_aar")
 include(":publish")
