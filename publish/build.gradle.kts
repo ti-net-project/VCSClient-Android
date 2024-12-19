@@ -1,16 +1,22 @@
 plugins {
-    alias(libs.plugins.android.library)
-    alias(libs.plugins.jetbrains.kotlin.android)
+//    alias(libs.plugins.android.library)
+//    alias(libs.plugins.jetbrains.kotlin.android)
+    id("com.android.library")
+    id("org.jetbrains.kotlin.android")
     id("maven-publish")
 }
 
 object PublicSdkConfig{
-    const val versionName = "0.3.9"
+    const val versionName = "0.3.10"
 }
 
 android {
     namespace = "com.tinet.vcslib"
     compileSdk = 33
+
+    buildFeatures {
+        buildConfig = false
+    }
 
     defaultConfig {
         minSdk = 24
