@@ -7,7 +7,7 @@ plugins {
 }
 
 object PublicSdkConfig{
-    const val versionName = "1.1.0"
+    const val versionName = "1.1.1"
 }
 
 android {
@@ -61,7 +61,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0")
     implementation("org.jetbrains.kotlin:kotlin-reflect:1.9.24")
-    implementation("io.agora:agora-rtm:2.2.0")
+    implementation("io.agora:agora-rtm:2.2.2")
     implementation("com.squareup.retrofit2:converter-gson:2.11.0")
     implementation("com.google.code.gson:gson:2.11.0")
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
